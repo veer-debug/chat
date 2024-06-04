@@ -47,5 +47,5 @@ def left(message):
     session.clear()
     emit('status', {'msg': username + ' has left the room.'}, room=room)
 
-# if __name__ == '__main__':
-#     socketio.run(app)
+if __name__ == '__main__':
+    socketio.run(app)
